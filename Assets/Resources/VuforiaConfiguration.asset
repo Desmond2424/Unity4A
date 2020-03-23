@@ -16,12 +16,12 @@ MonoBehaviour:
     vuforiaLicenseKey: 
     ufoLicenseKey: QWVzYjVlMy8vLy8vQUFBQUtQZ0ZxS094MDA5SXVyVlMyRnMraEhkQWxoVVlTOGVIekxsd1hUMTdJRVg0QlpPd0VwZkZyZzI5MG1JTnJBa05hWkVEbVNHZ3hKWEZyYVc2aEd0NHgxa1JUbitCU1V0MldCL21HTXgvUXJNUTkrQUxBejg1N2Z4cTNYTnVtSXZKa0VBMXdZK3FsSVp5bGI2Wk9tQlVnckZMWXNKeVlPd2dqVndOaTJVcTlNTTVGQjlGVTJRNVUvSUdLaVdEdUs1M2tOd3psQk1kZE50OFdBeFZFVHVnc3ZsQS92RVF1UnFobjNRQTJ3RzBIVlFwZVBOK3VUSEsvUDNQVlR2aFJLdnl1V1ZIWWppemhaMlV0dStCNTVQMWc4YXZaZjB3Si92Yk0xc3A0eWxnRlBmb3VNQ2VKVEtndENNTmFXODEzUUlid1NGendvcGFtRFhtRGpkZkROT0xnT2NYemlCWGp2TDdIVXpaYmlWQjVldTY=
     delayedInitialization: 0
-    cameraDeviceModeSetting: -1
+    cameraDeviceModeSetting: -2
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
-    version: 1.0.0
+    version: 8.5.9
     eulaAcceptedVersions: '{"Values":["8.5","8.1"]}'
   database:
     disableModelExtraction: 0
@@ -31,9 +31,9 @@ MonoBehaviour:
       type: 3}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 0
-    autoStartTracker: 0
-    arcoreRequirement: 0
+    autoInitTracker: 1
+    autoStartTracker: 1
+    arcoreRequirement: 1
     autoImportArcore: 0
   smartTerrain:
     autoInitTracker: 0

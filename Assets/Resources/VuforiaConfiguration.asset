@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: 
-    ufoLicenseKey: QWZrelJuZi8vLy8vQUFBQUtLV3V0VkgzdkVmbm1HakI0UGlKNzd1RExxcFFLalRIcjdOSktYWXI3UHMrSmNESzVIK2FIbmV2N2s5T2F2TEIyQXVPVWlXblRDMW9TSGRFK0dFZ1ByN0h1eXFsN2ZXdGpIQ2FpcXdJazF4eE96MXZ6WmpCSzg4VUN1Z2xHMSs3Sk8vTW9XOWYyb21SWWhQVGZJQ1JYQ1pLZ2YvRWF4dXZGa2VQdHg4eng5QXEzMjYrYUIzWTBKWEwzUW1qQ0RQbGpjUEdDbVBIemtKQzA2MU9XaWc2cUg4eWNKUlpzUS8yQnh3SWlTeFFhbXUwWHhLWTZLVGloSmxsRHh5YW9BZzVIbFVFL2VIMTJ0NzJTMDQwWXBLUzNFaHRWV1V6TVc3UTF2L1lJSUovRFg4TFVIL3BkcDhpZnFleW5TQ2hCdmJ0ZHZnaGtnNVNNQ0pWOGpxL2FOejZWNExpcGFNMk5XdVc3ZlZ4R0dqWnZkeFQ=
+    ufoLicenseKey: QWVzYjVlMy8vLy8vQUFBQUtQZ0ZxS094MDA5SXVyVlMyRnMraEhkQWxoVVlTOGVIekxsd1hUMTdJRVg0QlpPd0VwZkZyZzI5MG1JTnJBa05hWkVEbVNHZ3hKWEZyYVc2aEd0NHgxa1JUbitCU1V0MldCL21HTXgvUXJNUTkrQUxBejg1N2Z4cTNYTnVtSXZKa0VBMXdZK3FsSVp5bGI2Wk9tQlVnckZMWXNKeVlPd2dqVndOaTJVcTlNTTVGQjlGVTJRNVUvSUdLaVdEdUs1M2tOd3psQk1kZE50OFdBeFZFVHVnc3ZsQS92RVF1UnFobjNRQTJ3RzBIVlFwZVBOK3VUSEsvUDNQVlR2aFJLdnl1V1ZIWWppemhaMlV0dStCNTVQMWc4YXZaZjB3Si92Yk0xc3A0eWxnRlBmb3VNQ2VKVEtndENNTmFXODEzUUlid1NGendvcGFtRFhtRGpkZkROT0xnT2NYemlCWGp2TDdIVXpaYmlWQjVldTY=
     delayedInitialization: 0
-    cameraDeviceModeSetting: -1
+    cameraDeviceModeSetting: -2
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
     version: 8.5.9
-    eulaAcceptedVersions: '{"Values":["8.5"]}'
+    eulaAcceptedVersions: '{"Values":["8.5","8.1"]}'
   database:
     disableModelExtraction: 0
   videoBackground:
@@ -31,9 +31,9 @@ MonoBehaviour:
       type: 3}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 0
-    autoStartTracker: 0
-    arcoreRequirement: 0
+    autoInitTracker: 1
+    autoStartTracker: 1
+    arcoreRequirement: 1
     autoImportArcore: 0
   smartTerrain:
     autoInitTracker: 0

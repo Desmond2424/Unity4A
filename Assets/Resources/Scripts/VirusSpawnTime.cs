@@ -5,7 +5,8 @@ using UnityEngine;
 public class VirusSpawnTime : MonoBehaviour
 {
     public GameObject virusPrefab;
-    //private float xPos,  zPos ;
+
+    public float xPos, yPos, zPos;
     public float delay ; 
 
     // Start is called before the first frame update
@@ -26,6 +27,8 @@ public class VirusSpawnTime : MonoBehaviour
         
         
         yield return new WaitForSeconds(delayit);
-        GameObject vir = Instantiate(virusPrefab) as GameObject ;
+        // GameObject vir = Instantiate(virusPrefab , new Vector3(xPos , yPos , zPos ), Quaternion.identity) as GameObject ;
+        Instantiate(virusPrefab) ;
+        Instantiate(virusPrefab, new Vector3(xPos, yPos, zPos), Quaternion.identity);
     }
 }

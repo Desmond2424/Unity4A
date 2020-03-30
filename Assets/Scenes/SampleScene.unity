@@ -399,7 +399,7 @@ GameObject:
   - component: {fileID: 1616271867}
   - component: {fileID: 1616271868}
   - component: {fileID: 1616271869}
-  - component: {fileID: 1616271870}
+  - component: {fileID: 1616271872}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -479,7 +479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa850fbd5b8aded44846f96e35f1a9f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1616271870
+--- !u!114 &1616271872
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -493,4 +493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   virusPrefab: {fileID: 8131246165097829572, guid: 2c80761126b607745a868a2205952f78,
     type: 3}
-  delay: 0
+  xPos: 1
+  yPos: 1
+  zPos: 1
+  delay: 10

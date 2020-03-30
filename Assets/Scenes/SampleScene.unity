@@ -397,6 +397,9 @@ GameObject:
   - component: {fileID: 1616271866}
   - component: {fileID: 1616271865}
   - component: {fileID: 1616271867}
+  - component: {fileID: 1616271868}
+  - component: {fileID: 1616271869}
+  - component: {fileID: 1616271870}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -425,7 +428,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1616271864}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 516019335}
@@ -447,3 +450,47 @@ MonoBehaviour:
   m_PlanePrefab: {fileID: 3568177074118605878, guid: 9bb789208623f8143af2a42dc4f619c1,
     type: 3}
   m_DetectionMode: 1
+--- !u!114 &1616271868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616271864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedLibrary: {fileID: 11400000, guid: 702c1db16bc6ed34aaa6c21af6c2c111,
+    type: 2}
+  m_MaxNumberOfMovingImages: 1
+  m_TrackedImagePrefab: {fileID: 6170754984009126590, guid: 110677072b473b64eb6a44a3f7919f7c,
+    type: 3}
+--- !u!114 &1616271869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616271864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa850fbd5b8aded44846f96e35f1a9f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1616271870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616271864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73043525809f83f42b6b38e6e58c31a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  virusPrefab: {fileID: 8131246165097829572, guid: 2c80761126b607745a868a2205952f78,
+    type: 3}
+  delay: 0
